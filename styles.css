@@ -321,6 +321,12 @@ section.bg-image {
     overflow: hidden;
 }
 
+.stars {
+    max-width: 180px;
+    text-align: center;
+    margin: 24px auto;
+}
+
 ul {
     list-style: none;
     padding: 0;
