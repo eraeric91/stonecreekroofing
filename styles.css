@@ -183,6 +183,7 @@ button {
     font-weight: var(--font-weight-medium);
     color: black;
     background-color: var(--yellow);
+    border: 0;
     padding: var(--space-md);
     border-radius: 4px;
     cursor: pointer;
@@ -195,6 +196,7 @@ button:hover {
 button.nav {
     background-color: white;
     color: black;
+    border: 1px solid black;
     padding: 12px;
     font-size: 16px;
 }
@@ -391,6 +393,10 @@ footer {
     padding: var(--space-4xl) var(--space-lg);
     gap: 24px;
     text-align: center;
+    }
+
+    .logo img {
+    height: 48px;
     }
 
     nav {
