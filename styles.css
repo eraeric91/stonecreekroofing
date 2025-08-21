@@ -180,11 +180,11 @@ nav {
 button {
     text-align: center;
     font-size: 16px;
-    font-weight: var(--font-weight-medium);
+    font-weight: bold;
     color: black;
     background-color: var(--yellow);
     border: 0;
-    padding: var(--space-md) var(--space-lg);
+    padding: var(--space-lg) var(--space-lg);
     border-radius: 4px;
     cursor: pointer;
 }
@@ -259,7 +259,7 @@ section.white {
     max-width: 100%;
 }
 
-section.grey {
+section.color {
     background-color: var(--primary);
     color: var(--white);
     max-width: 100%;
