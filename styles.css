@@ -20,9 +20,9 @@
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   
   --font-size-display: 48px;    /* For big hero text */
-  --font-size-heading: 36px;    /* For main headings */
+  --font-size-heading: 32px;    /* For main headings */
   --font-size-subheading: 24px; /* For subheadings */
-  --font-size-body: 20px;       /* For regular text */
+  --font-size-body: 16px;       /* For regular text */
   --font-size-caption: 14px;    /* For small text */
   
   --font-weight-light: 300;
@@ -369,13 +369,10 @@ footer {
     --font-size-display: 32px;
     --font-size-heading: 24px;
     --font-size-subheading: 20px;
-    --font-size-body: 16px;
     }
 
     button {
     text-align: center;
-    font-size: 14px;
-    padding: 16px;
     }
 
     button.nav {
