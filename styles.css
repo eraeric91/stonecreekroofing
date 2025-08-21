@@ -194,15 +194,15 @@ button:hover {
 }
 
 button.nav {
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    padding: 12px;
+    background-color: #590837;
+    color: white;
+    border: 0;
+    padding: 16px 24px;
     font-size: 16px;
 }
 
 button.nav:hover {
-    background-color: var(--light-20);
+    background-color: #3b0223;
 }
 
 button.secondary {
