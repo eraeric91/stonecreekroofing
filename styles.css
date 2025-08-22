@@ -266,7 +266,7 @@ section.color {
 }
 
 section.bg-image {
-    background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('assets/image/rooftop-hail.png');
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('assets/image/rooftop-hail.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -314,10 +314,9 @@ section.bg-image {
 }
 
 .image {
-    max-width: 800px;
-    height: 100%;
+    width: auto;
+    max-height: 500px;
     margin: 0 auto;
-    border-radius: 16px;
     overflow: hidden;
 }
 
