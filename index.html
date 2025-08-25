@@ -38,7 +38,7 @@
             <img src="assets/logo/logo.png" alt="Company Logo">
         </a>  
         <div>
-            <a href="tel:+13072227455" onclick="gtag('event', 'call_button_click');">
+            <a href="tel:+13072227455" onclick="gtag('event', 'call_button_click'); return gtag_report_conversion(this.href);">
                 <button class="nav">CALL TODAY (307) 222-7455</button>
             </a>
         </div>
@@ -49,7 +49,7 @@
             <h1 style="text-align: center">Get a FREE HAIL DAMAGE ASSESSMENT by our licensed Cheyenne roofers</h1>
             <h3 style="text-align: center">That hail came down like a bull out of Chute 9! Give us a call, and get your roof inspected by one of our insurance claim specialists</h3>
                 <div class="button">
-                    <a href="tel:+13072227455" onclick="gtag('event', 'call_button_click');">
+                    <a href="tel:+13072227455" onclick="gtag('event', 'call_button_click'); return gtag_report_conversion(this.href);">
                         <button>GET A FREE INSPECTION</button>    
                     </a>
                 </div>
@@ -87,7 +87,12 @@
                 <h2 style="color: white; text-align: center">Your roof may have been damaged by the Cheyenne hail storm</h2>
                 <h3 style="color: white; text-align: center">Follow these 3 simple steps and Stone Creek will do the rest:</h3>
                 <div class="card" style="text-align: center; align-items: center">
-                        <p>Step 1: CALL TODAY <a href="tel:+13072227455" onclick="gtag('event', 'call_button_click');" style="color: #590837; font-weight: bold">(307) 222-7455</a></p>
+                        <p>
+                            Step 1: CALL TODAY 
+                            <a href="tel:+13072227455" onclick="gtag('event', 'call_button_click'); return gtag_report_conversion(this.href);" style="color: #590837; font-weight: bold">
+                                (307) 222-7455
+                            </a>
+                        </p>
                     </div>
                     <br>
                     <div class="card" style="text-align: center; align-items: center">
@@ -108,7 +113,7 @@
             <p>"I spent 8 years inspecting roofs and handling claims in Cheyenne for the nation’s largest homeowner insurance carrier. I make sure that all of our Project Managers are trained experts at evaluating roof damage. We are happy to help homeowners through the insurance claims process."</p>
             <p style="font-weight: bold">– David Prestwich, Founder & Owner of Stone Creek Roofing</p>
             <br>
-            <a href="tel:+13072227455" onclick="gtag('event', 'call_button_click');">
+            <a href="tel:+13072227455" onclick="gtag('event', 'call_button_click'); return gtag_report_conversion(this.href);">
                 <button>GET A FREE INSPECTION</button>    
             </a>
         </div>
@@ -121,7 +126,9 @@
 
     <footer>
         <p>©2025 STONE CREEK ROOFING & SOLAR</p>
-        <a href="tel:+13072227455" onclick="gtag('event', 'call_button_click');">GET A FREE INSPECTION (307) 222-7455</a>
+        <a href="tel:+13072227455" onclick="gtag('event', 'call_button_click'); return gtag_report_conversion(this.href);">
+            GET A FREE INSPECTION (307) 222-7455
+        </a>
     </footer>
     
 </body>
